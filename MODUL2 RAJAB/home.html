@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> TP Modul 1 Web Application Development  </title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #F8F9FA;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #353A40;
+    }
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 24px;
+        
+    }
+
+    .topnav a:hover {
+       
+        color:aqua ;
+        
+    }
+
+    .topnav a.active {
+       
+        color:yellow;
+       
+    }
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: 200px;
+        position: relative;
+    }
+
+    .col {
+        width: 800px;
+        height: 550px;
+    }
+
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .center-vert {
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .btn-primary {
+        width: 250px;
+    }
+    .logo-image{
+        width: 150px;
+        height: auto;
+        overflow: hidden;
+    }
+</style>
+
+</head>
+
+<body>
+
+
+    <div class="topnav">
+        <a class="navbar-brand" href="/">
+            <div class="logo-image">
+                <img src="logo-ead.png" class="img-fluid">
+            </div>
+        </a>
+        <a class="active" href="home.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="product.html">Products</a>
+    </div>
+
+    <br>
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col" style="background-color: #EBECED">
+            <div class="center">
+                <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture in picture" frameborder="0"
+                        height="340" src="https://www.youtube.com/embed/AwMeQJ_u73I"
+                        width="560"></iframe>
+            </div>
+        </div> 
+
+    
+
+
+<div class="col" style="background-color: #ffffff">
+    <br>
+    <h2 style="text-align: center">Registrasi Data Pelanggan</h2>
+    <form action="">
+
+        
+        <div class="form-group">
+            <label for="nama">Nama</label>
+            <input class="form-control" id="nama" name="Nama" placeholder="Nama anda..." type="text"
+                   value=" ">
+        </div>
+
+
+        <div class="form-group">
+            <label for="nope">Nomor Hp</label>
+            <input class="form-control" id="nope" name="Nomorhp" type="number" value=" ">
+        </div>
+
+
+        <div class="form-group">
+            <label for="alamat">Alamat</label>
+            <textarea class="form-control" id="alamat" name="alamat"> </textarea>
+        </div>
+
+
+        <div class="form-check">
+            <label>Pembayaran</label>
+            <br>
+            <label class="radio-inline"><input name="cash" type="radio"> Cash</label>
+            <label class="radio-inline"><input name="credit" type="radio"> Credit</label>
+        </div>
+
+
+        <div class="form-group">
+            <label for="Kategori">Kategori Pesanan</label>
+            <select class="form-control" id="Kategori" name="Kategori">
+                <option>Komputer</option>
+                <option>Keyboard</option>
+                <option>Mouse</option>
+            </select>
+        </div>
+
+
+        <div class="center-vert">
+            <button class="btn btn-primary" type="submit">Kirim</button>
+        </div>
+    </form>
+</div>
+
+</div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
