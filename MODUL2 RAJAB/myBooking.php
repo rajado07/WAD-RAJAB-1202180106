@@ -62,7 +62,7 @@
     $priceLux = 200 ;
 
     // Menjumlahkan hari sesuai dengan varibale $duration //
-    $tglCheckout = date('Y-m-d', strtotime('+'.$duration .'days', strtotime($date))); 
+    $tglCheckout = date('Y-m-d', strtotime('+'.$durasi .'days', strtotime($date))); 
 
     ?>
 
