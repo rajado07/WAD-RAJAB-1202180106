@@ -43,7 +43,7 @@
     error_reporting(error_reporting() & ~E_NOTICE) ; 
     
     // Mendapatkan Value Dari Submit Melalui Get, Lalu Menamakan Variabel nya Menjadi $submit //
-    $submti=$_GET['submit'];
+    $submit=$_GET['submit'];
 
     // Jika $submit nilai nya kosong, maka di tambahkan 1 biar ada value default, berguna untuk jika langsung pencet Booking. B //
     if (empty($submit)) {
@@ -59,7 +59,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <!--Membuat Form Dengan Metode POST-->
-                <form action="myBooking.php" method="GET">
+                <form action="myBooking.php" method="POST">
 
                   <div class="form-group">
                     <label >Name</label>
