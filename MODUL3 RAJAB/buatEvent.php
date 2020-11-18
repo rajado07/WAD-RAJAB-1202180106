@@ -118,7 +118,7 @@
 
                     <div class="text text-right">
                         <a class="btn btn-danger btn-sm" href="home.php">Cancel</a>
-                        <button class="btn btn-primary btn-sm" type="submit">Submit</button>
+                        <button class="btn btn-primary btn-sm" type="button">Submit</button>
                     </div>
                     </form>
                 </div>

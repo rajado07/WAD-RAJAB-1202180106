@@ -32,7 +32,7 @@
         <?php
     include 'config.php';
     $no = 0;
-    $data = mysqli_query($conn, "select * from event");
+    $data = mysqli_qeury($conn, "select * from event");
     if ($no === mysqli_num_rows($data)) {
         ?>
         <div class="col-sm-2">
