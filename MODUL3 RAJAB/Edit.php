@@ -2,7 +2,7 @@
 
 include ('config.php');
 
-if (isset($POST['edit'])){
+if (isset($_POST['edit'])){
     $nama = $_POST['nama'];
     $deskripsi = $_POST['deskripsi'];
     $gambar = $_POST['gambar'];

@@ -1,7 +1,7 @@
 <?php
-$dbhost = "localhost";
+$dbhost = "localhost:3307";
 $dbuser = "root";
-$dbname = "09-rajab";
+$dbname = "modul3_rajab";
 $dbpass = "";
 
 $conn =  mysqli_connect($dbhost, $dbuser, $dbpass, $dbname)
