@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-	if($_SESION['status']!="login"){
+	if($_SESSION['status']!="login"){
 		header("location:login.php?alert=belum_login");
 	}
 	?>

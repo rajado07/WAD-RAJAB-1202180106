@@ -3,7 +3,7 @@
 session_start();
  
 // menghapus semua session
-session_desroy();
+session_destroy();
  
 // mengalihkan halaman sambil mengirim pesan logout
 header("location:login.php?alert=logout");
