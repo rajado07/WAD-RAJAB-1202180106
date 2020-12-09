@@ -25,7 +25,7 @@
 <body>
 
     <div class="container-fluid text-center top">
-        <a href="/">Home </a>
+        <a href="/product">Home </a>
         <a href="/product">Product </a>
         <a href="/order">Order </a>
         <a href="/history">History </a>

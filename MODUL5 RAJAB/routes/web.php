@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
 });
 
 Route::get('/product', function () {
@@ -34,7 +34,7 @@ Route::get('/input-product', function () {
 });
 
 Route::get('/update-product', function () {
-    return view('update-product');
+    return view('updateproduct');
 });
 
 Route::get('/konfirmasi', function () {
